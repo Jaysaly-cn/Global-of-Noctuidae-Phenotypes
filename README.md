@@ -1,13 +1,22 @@
-# Global-of-Noctuidae-Phenotypes
-Decoding Global Macroevolutionary Patterns of Noctuidae Phenotypes: A High-Throughput Study Unveiling Dual-Track Environmental Filtering via Vision Foundation Models
+# 🦋 Decoding Global Noctuidae Phenotypes via Vision Foundation Models
 
-Deciphering macro-scale phenotypic evolutionary patterns is a central challenge in understanding how biodiversity responds to global environmental change. However, traditional morphological quantification often relies on a priori feature extraction, which suffers from subjective bias and information loss, thereby hindering the discovery of holistic evolutionary rules across vast geographic scales. To address this, we constructed a high-throughput dataset of over 300,000 global Noctuidae specimens and integrated a self-supervised Vision Foundation Model (DINOv2) to extract a high-dimensional morphological axis (Dino PC1) as a novel, objective metric. Our results demonstrate that Dino PC1 captures non-linear synergistic covariates—such as integrated shifts in color, texture, and topology—with significantly higher statistical sensitivity to environmental gradients than traditional isolated traits. Under a rigorous spatial analytical framework, we unveil a "dual-track" evolutionary mechanism of environmental filtering: severe environmental stress triggers "phenotypic filtering" by overriding genetic conservatism to drive cross-lineage convergence, while high-frequency fluctuations execute "species filtering" by eliminating maladaptive conserved traits. This work not only establishes a transformative decoupling framework for environmental filtering theory but also demonstrates the paradigmatic power of artificial intelligence in decoding macroevolutionary rules directly from massive visual datasets. 
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![R-Spatial](https://img.shields.io/badge/R-GAMMs-276DC3.svg)](https://www.r-project.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Data](https://img.shields.io/badge/Data-GBIF-green.svg)](https://www.gbif.org/)
 
-Our main contributions are as follows:
+> **Official repository for the paper:** *"Decoding Global Macroevolutionary Patterns of Noctuidae Phenotypes: A High-Throughput Study Unveiling Dual-Track Environmental Filtering via Vision Foundation Models"*
 
-A Global "Deep Morphospace" Dataset: We constructed and open-sourced the largest phenotypic-environmental dataset for Noctuidae to date (>300,000 global specimens, 15M+ data pairs), providing an unprecedented macro-level foundation for evolutionary analysis.
+This repository contains the code, models, and data processing pipeline for our global-scale macroecological study. By integrating Vision Foundation Models (**DINOv2**, **YOLOv10**, **CLIP**) with Spatial Generalized Additive Mixed Models (**GAMMs**), we extracted high-dimensional morphological axes from **>300,000** global Noctuidae specimens to decouple the "dual-track" mechanisms of environmental filtering.
 
-An Advanced Paradigm for Phenotypic Quantification: By leveraging DINOv2 to extract a high-dimensional morphological principal axis (Dino PC1), we bypassed the biases inherent in traditional isolated metrics. This approach uniquely captures complex, non-linear synergistic adaptations and exhibits superior statistical sensitivity to environmental drivers.
+---
 
-Dual Mechanisms of Environmental Filtering: By decoupling phylogenetic conservatism, we propose a dual-track framework of environmental filtering comprising "phenotypic filtering" and "species selection". This demonstrates that macroscopic phenotypic evolution is a predictable outcome strictly bounded by physical and climatic rules."
+## ✨ Key Highlights
 
+- **🌍 Massive Global Dataset:** High-throughput pipeline processing over 300,000 Noctuidae specimens worldwide.
+- **🧠 VFM-Driven Phenomics:** Replaces traditional heuristics with self-supervised Vision Foundation Models (DINOv2) to extract `Dino PC1`—a robust, high-dimensional semantic axis.
+- **⚙️ Automated Cleaning & Segmentation:** Employs a dual-model computer vision pipeline (CLIP for life-stage/angle classification + YOLOv10 for precise instance segmentation).
+- **🧬 Dual-Track Decoupling:** Statistical framework to isolate "Phenotypic Filtering" (directional adaptation) from "Species Filtering" (taxonomic turnover) using evolutionary ablation.
+
+---
