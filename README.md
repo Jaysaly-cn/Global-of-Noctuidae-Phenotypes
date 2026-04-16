@@ -8,7 +8,7 @@
 
 > **Official repository for the paper:** *"Decoding Global Macroevolutionary Patterns of Noctuidae Phenotypes: A High-Throughput Study Unveiling Dual-Track Environmental Filtering via Vision Foundation Models"*
 
-This repository contains the code, models, and data processing pipeline for our global-scale macroecological study. By integrating Vision Foundation Models (**DINOv2**, **YOLOv10**, **CLIP**) with Spatial Generalized Additive Mixed Models (**GAMMs**), we extracted high-dimensional morphological axes from **>300,000** global Noctuidae specimens to decouple the "dual-track" mechanisms of environmental filtering.
+This repository contains the code, models, and data processing pipeline for our global-scale macroecological study. By integrating Vision Foundation Models (**DINOv2**, **YOLOv10**, **CLIP**) with Spatial Generalized Additive Mixed Models (**GAMMs**), we extracted high-dimensional morphological axes from **>300,000** global Noctuidae specimens to decouple the "dual-track" mechanisms of environmental filtering. Our raw data and preprocessed dataset can be accessed at https://huggingface.co/datasets/Jaysaly/Noctuidae-pheno-env .
 
 ---
 
